@@ -13,13 +13,14 @@ const userSchema= new Schema(
     index:true
   },
   email:{
-    username:{
+   
     type:String,
     required:true,
     unique:true,
     lowercase:true,
     trim:true,
-  },
+  
+ },
   fullname:{
    
     type:String,
@@ -48,7 +49,7 @@ const userSchema= new Schema(
     type:String,
   },
 
-  }
+  
 },
 {timestamps:true})
 
